@@ -1,0 +1,10 @@
+apiVersion: 1
+
+providers:
+  - name: AgroTrack
+    folder: AgroTrack
+    type: file
+    disableDeletion: false
+    editable: true
+    options:
+      path: /etc/grafana/dashboards
